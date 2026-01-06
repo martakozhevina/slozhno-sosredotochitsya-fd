@@ -153,22 +153,27 @@
   gap: 20px;
 }
 
+.section_content {
+  display: grid;
+  gap: 10px;
+}
+
+.section_concentration-container {
+  display: grid;
+  gap: 20px;
+}
+
+.section_block {
+  display: grid;
+  gap: 20px;
+}
+
 .section_header {
   font-family: var(--font), monospace;
   font-weight: 700;
   font-size: var(--main-font-size);
   line-height: 23.4px;
   color: var(--section-header-text-color);
-}
-
-.section_content {
-  display: grid;
-  gap: 10px;
-}
-
-.section_block {
-  display: grid;
-  gap: 20px;
 }
 
 .section_content-header {
@@ -281,8 +286,6 @@
 }
 
 .section_concentration-container {
-  display: grid;
-  gap: 20px;
   grid-column-start: 1;
   grid-column-end: 3;
 }
