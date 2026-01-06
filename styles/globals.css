@@ -9,6 +9,7 @@
 body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
+  min-block-size: 668px;
   margin: 0 auto;
 }
 
