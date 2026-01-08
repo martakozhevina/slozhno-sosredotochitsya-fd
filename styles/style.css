@@ -61,7 +61,7 @@
 
 .header__theme-menu-button {
   background-color: transparent;
-  font-family: var(--font), monospace; /*я не поняла до конца про альтернативный fantasy для шрифта PressStart2P ведь такого вроде нет в проекте, поэтому оставила везде monospace*/
+  font-family: var(--font), monospace;    /*я не поняла до конца про альтернативный fantasy для шрифта PressStart2P ведь такого вроде нет в проекте, поэтому оставила везде monospace*/
   font-size: var(--main-font-size);
   font-weight: 400;
   color: var(--button-color);
@@ -216,7 +216,7 @@
 }
 
 .image {
-  max-width: 100%;
+  width: 100%;
 }
 
 .footer {
